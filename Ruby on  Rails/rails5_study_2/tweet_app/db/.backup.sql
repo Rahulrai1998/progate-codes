@@ -1,0 +1,13 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY);
+INSERT INTO schema_migrations VALUES('20200525075031');
+CREATE TABLE IF NOT EXISTS "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+INSERT INTO ar_internal_metadata VALUES('environment','development','2020-05-25 16:52:40.279566','2020-05-25 16:52:40.279566');
+CREATE TABLE IF NOT EXISTS "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL);
+INSERT INTO posts VALUES(1,'Learning Rails with Progate!','2020-05-25 17:10:32.291209','2020-05-25 17:10:32.291209');
+INSERT INTO posts VALUES(2,'Trying to display the posts!','2020-05-25 17:11:29.991876','2020-05-25 17:11:29.991876');
+INSERT INTO posts VALUES(3,'Learning to code is so much fun!','2020-05-25 17:25:41.715810','2020-05-25 17:25:41.715810');
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('posts',3);
+COMMIT;

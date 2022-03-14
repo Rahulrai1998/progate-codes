@@ -1,0 +1,104 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+.head{
+     background-color: #26d0c9;
+     
+  color: #fff;
+  height: 90px;
+}
+li {
+  list-style: none;
+  
+  }
+  .title-item li{
+    float:left;
+    padding:33px 20px;
+  }
+  
+.title{float:left;
+ 
+    float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  
+}
+.intro{
+  margin:100px 80px;
+}
+.intro h1{
+  font-size:140px;
+}
+.intro span{
+  color:#ff4a4a;
+}
+.intro h2{
+  font-size:60px;
+}
+.content{
+  height:500px;
+  margin-top:100px;
+  margin-left:80px;
+  
+}
+.lesso{
+  border-bottom: 2px solid #dee7ec;
+  
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+.lesson-list {
+  float:left;
+ 
+  margin-right:40px;
+}
+.lesson-list p{
+  font-size:24px;
+  margin-top:30px;
+}
+.form{
+  padding:100px 0 100px 0;
+  margin-left:80px;}
+  
+
+input,textarea{
+  width:400px;
+   font-size: 18px;
+  border:1px solid  #dee7ec;
+  padding:20px;
+  margin-bottom:30px;
+  margin-top:10px;
+}
+.submit-bt{
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.footer{
+  height:120px;
+  background-color:#2f5167;
+  color:#fff;
+  padding:40px;
+}
+.foot{
+  font-size:32px;
+  float:left;
+}
+.foot-item {
+  float: right;
+  
+}
+.foot-item li{
+  padding-bottom:20px;
+}
+
+/* Write your code below */

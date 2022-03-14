@@ -1,0 +1,37 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  .btn{
+    width:100%;
+  }
+  .facebook{
+    margin-bottom:10px;
+  }
+  .top-wrapper{
+    text-align:left;
+    padding-top:130px;
+  }
+  /* Change btn's width to 100% */
+  
+  
+  /* Change facebook's margin-bottom to 10px */
+  
+  
+  /* Add CSS for top-wrapper */
+  
+  
+}
